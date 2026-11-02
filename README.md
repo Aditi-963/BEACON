@@ -133,7 +133,7 @@ BEACON follows a modular simulation and control pipeline.
 
 The pipeline connects simulated environmental conditions to sensor observations, target-state estimation, control decisions, and performance visualization.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technologies |
 |---|---|
@@ -150,7 +150,7 @@ The pipeline connects simulated environmental conditions to sensor observations,
 
 The stack is designed to support numerical simulation, optical image processing, real-time telemetry, interactive visualization, and offline desktop deployment.
 
-## 🏗️ Proposed Architecture
+##  Proposed Architecture
 
 The system is organized into five primary modules.
 
@@ -164,7 +164,7 @@ The system is organized into five primary modules.
 
 These module paths reflect the architecture described in the project presentation; the final repository structure may differ.
 
-## 📊 Performance Evaluation
+##  Performance Evaluation
 
 BEACON defines the following proposed evaluation targets.
 
@@ -203,7 +203,7 @@ The proposed benchmarking workflow includes:
 5. Repeat the experiment across multiple Monte Carlo runs.
 6. Compare performance across algorithms and disturbance conditions.
 
-## 🔬 AI and Control Concepts
+##  AI and Control Concepts
 
 BEACON combines estimation, computer vision, control theory, and simulation techniques.
 
@@ -229,7 +229,7 @@ Runs repeated experiments under controlled random conditions to evaluate the con
 
 These components are primarily based on estimation, numerical simulation, computer vision, and classical control. The project should not be described as a deep-learning-based system unless a neural-network component is separately implemented.
 
-## ⚠️ Challenges and Mitigation Strategies
+##  Challenges and Mitigation Strategies
 
 | Challenge | Proposed Mitigation |
 |---|---|
@@ -240,7 +240,7 @@ These components are primarily based on estimation, numerical simulation, comput
 | Tracking loss | SEARCH → TRACK state management and reacquisition |
 | Restricted evaluation environments | Self-contained desktop packaging with bundled assets |
 
-## 🌍 Impact and Benefits
+##  Impact and Benefits
 
 ### Reduced Testing Costs
 Provides a virtual alternative to some hardware-intensive optical alignment and tracking experiments.
@@ -257,7 +257,7 @@ Uses telemetry and simulated system state to help distinguish between possible t
 ### Future Hardware Integration
 The modular architecture is intended to support future hardware-in-the-loop testing and integration with optical gimbal systems.
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 Potential extensions include:
 
@@ -271,7 +271,7 @@ Potential extensions include:
 
 These are potential future improvements, not claims of completed functionality.
 
-## 📚 Research and References
+##  Research and References
 
 The project presentation identifies the following references for its technical foundations:
 
@@ -290,13 +290,13 @@ The project presentation identifies the following references for its technical f
 
 These references provide background for optical communication, atmospheric propagation, target tracking, and state estimation. Verify the exact bibliographic details and applicability of each reference before using them in a formal publication.
 
-## 👥 Team
+##  Team
 
 **Team Name:** Dilly Dally Devs  
 **Team ID:** 123625  
 **Competition:** Smart India Hackathon 2026
 
-## 💻 Getting Started
+##  Getting Started
 
 BEACON's proposed stack includes a Python backend and a React frontend. The following is a starting point for local development; adjust the commands to match the actual repository structure.
 
@@ -365,7 +365,7 @@ Desktop packaging is intended to use pywebview and PyInstaller. The launch comma
 
 **Important:** The commands above are conditional examples based on the proposed technology stack. Confirm the actual filenames, entry points, and dependency manifests in the repository before running them.
 
-## 📄 License
+##  License
 
 No license has been specified in the project presentation. Add an appropriate `LICENSE` file before distributing the software.
 
