@@ -1,4 +1,4 @@
-# 🚀 BEACON
+#  BEACON
 ### Beam Evaluation, Acquisition & Coarse Optical Navigation
 
 **A Physics-Grounded Simulation Platform for Free-Space Optical Communications (FSOC)**
@@ -13,7 +13,7 @@
 
 ---
 
-## 🌌 Overview
+##  Overview
 
 **BEACON (Beam Evaluation, Acquisition & Coarse Optical Navigation)** is a simulation platform designed to model, evaluate, and validate coarse optical alignment and tracking algorithms for Free-Space Optical Communications (FSOC).
 
@@ -25,7 +25,7 @@ BEACON addresses this challenge through a physics-grounded virtual environment t
 
 The proposed architecture is designed to operate offline and support future integration with hardware-in-the-loop (HIL) testing systems.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 **SIH26169 — Coarse Optical Alignment & Tracking Simulator for Free-Space Optical Communications (FSOC)**
 
@@ -39,7 +39,7 @@ The key challenges addressed by BEACON are:
 
 BEACON aims to provide a reproducible simulation environment for evaluating optical acquisition and tracking strategies under these challenging conditions.
 
-## ✨ Key Features
+##  Key Features
 
 ### 1. Physics-Grounded Simulation Engine
 - Simulates orbital target motion, including low Earth orbit (LEO) passes and spiral trajectories.
@@ -87,7 +87,7 @@ Using reproducible random seeds, the platform is designed to support controlled 
 - Avoids runtime dependence on external CDNs.
 - Uses a decoupled architecture intended to facilitate future hardware integration.
 
-## 🧠 Technical Approach
+##  Technical Approach
 
 BEACON follows a modular simulation and control pipeline.
 
